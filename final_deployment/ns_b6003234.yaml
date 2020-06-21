@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: b6003234
+  resourceVersion: "3689"
+  selfLink: /api/v1/namespaces/b6003234
+
+spec:
+  finalizers:
+  - kubernetes
+

@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: suber
+  name: suber
+  namespace: b6003234
+  resourceVersion: "5118"
+  selfLink: /api/v1/namespaces/b6003234/services/suber
+  uid: 60e1a33f-b683-4da5-882a-735696a4fb30
+spec:
+  ports:
+  - port: 8080
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app: suber
+  sessionAffinity: None
+  type: ClusterIP
+
